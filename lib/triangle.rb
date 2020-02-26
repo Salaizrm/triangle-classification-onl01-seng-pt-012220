@@ -18,8 +18,8 @@ class Triangle
         :equilateral
       elsif (@x == @y) or (@y == @z) or (@x == @z)
         :isosceles
-      elsif ()
-      
+      elsif (@x != @y) or (@y != @z) or (@x != @z)
+        :scalene
       end
     end
   end
