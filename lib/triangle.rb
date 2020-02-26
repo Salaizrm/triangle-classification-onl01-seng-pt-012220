@@ -8,5 +8,7 @@ class Triangle
     @z = z
   end
   
+  def kind
+  
   
 end
