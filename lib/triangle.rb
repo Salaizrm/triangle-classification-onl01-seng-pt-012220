@@ -13,6 +13,9 @@ class Triangle
       raise TriangleError
     elsif (@x + @y <= @z) or (@y + @z <= @x) or (@x + @z <= @y)
       raise TriangleError
+    else
+      if (@x == @y) or (@y == @z)
+        
       
       
     end
