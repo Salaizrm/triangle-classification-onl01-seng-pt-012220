@@ -16,6 +16,7 @@ class Triangle
     else
       if (@x == @y) or (@y == @z)
         :equilateral
+      elsif 
       
       end
     end
