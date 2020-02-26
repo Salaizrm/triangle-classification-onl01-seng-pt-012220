@@ -11,7 +11,7 @@ class Triangle
   def kind
     if (@x <= 0) or (@y <= 0) or (@z <= 0)
       raise TriangleError
-    elsif (@x+@y < @z) or (@x+@z < @y) or (@y+@z < @x)
+    elsif (@x+@y <= @z) or (@x+@z <= @y) or (@y+@z <= @x)
       raise TriangleError
     else
       if (@x == @y) && (@y == @z)
