@@ -15,9 +15,9 @@ class Triangle
       raise TriangleError
     else
       if (@x == @y) or (@y == @z)
-        
+        :equilateral
       
-      
+      end
     end
   end
       
